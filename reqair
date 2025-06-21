@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Me 🌷</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Fira+Code&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: url('https://i.imgur.com/oYiTqum.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+      font-family: 'Fira Code', monospace;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      backdrop-filter: blur(4px) brightness(0.9);
+      text-align: center;
+    }
+
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3em;
+      margin-bottom: 0.2em;
+    }
+
+    p {
+      font-size: 1.2em;
+      max-width: 600px;
+      margin: 0.5em 0;
+    }
+
+    .card {
+      background: rgba(0, 0, 0, 0.5);
+      padding: 2em;
+      border-radius: 20px;
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+    }
+
+    a {
+      color: #ffb6c1;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .flower {
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+      font-size: 2em;
+      animation: float 5s ease-in-out infinite;
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>hi, i’m [your name]</h1>
+    <p>i make strange things on the internet<br>💻 + 🌸 + 🔧</p>
+    <p><a href="https://github.com/yourusername">github</a> • <a href="https://twitter.com/yourhandle">twitter</a> • <a href="mailto:you@email.com">email</a></p>
+  </div>
+  <div class="flower">🌼</div>
+</body>
+</html>
